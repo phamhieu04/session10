@@ -2,9 +2,9 @@
 movie={
     'name' : 'end game',
     'discription' : 'part 2 of infinity',
-    'cost' : 'more than 3 million dollars'
 }
 print(movie)
-ask1=input("what key to delete:" )
-del movie[ask1]
+ask1=input("content to fix: ")
+ask2=input("change: ")
+movie[ask1]=ask2
 print(movie)
